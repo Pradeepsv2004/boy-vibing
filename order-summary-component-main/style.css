@@ -1,0 +1,108 @@
+
+body{
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+h1{
+  margin-top: 35px;
+  font-weight: 1300;
+}
+
+p{
+  margin: 15px 0;
+  padding: 0 50px;
+  font-weight: 10px;
+  font-size: 16px;
+
+
+}
+
+a{
+      padding-top: 20px;
+}
+
+
+
+button{
+  margin-top: 30px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-color: white;
+  border-radius: 10px ;
+  padding: 12px 95px;
+  box-shadow: 0 8px 20px -4px lightgrey;
+  border: none;
+
+
+}
+/* image */
+
+
+.boy{
+  background: blue;
+  background-image: url("images/illustration-hero.svg");
+  height: 197px;
+  width: 400px;
+  background-size: cover;
+  border-radius: 18px 18px 0 0 ;
+}
+
+.music-icon{
+ width: 15%;
+ height: 10%;
+ padding-top: 15px;
+ padding-left: 10px;
+
+
+
+}
+/* */
+
+
+.container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+
+}
+.card{
+
+  margin: 50px auto;
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  position: relative;
+  top: 70px;
+  border-radius: 18px;
+
+}
+.content{
+  text-align: center;
+}
+
+.payment{
+  margin: 15px 0;
+}
+
+.payment-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 40px;
+  border-radius: 15px;
+}
+ .Annual{
+   padding-left: 20px;
+   padding-right: 85px;
+ }
+
+
+  
